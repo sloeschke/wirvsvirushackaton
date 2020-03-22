@@ -62,7 +62,7 @@ function handleHelpPress() {
 const CustomRow = ({ title, description, image_url }) => (
     <View style={styles.container}>
 
-        <View style={styles.container_text}>
+<View style={styles.container_text}>
             <View style={styles.mainContainer}>
                 <Text style={styles.title}>
                     {title}
@@ -77,8 +77,7 @@ const CustomRow = ({ title, description, image_url }) => (
                 </TouchableOpacity>
             </View> */}
         </View>
-        <Image source={{ uri: "https://firebasestorage.googleapis.com/v0/b/wirvsvirus-65979.appspot.com/o/Hackathon_go_shopping.png?alt=media&token=8ca3f6b5-2d2e-4607-b0ed-5333764f3695" }} //image_url }} 
-        style={styles.photo} >
+        <Image source={{ uri: image_url }} style={styles.photo} >
         </Image>
 
     </View>

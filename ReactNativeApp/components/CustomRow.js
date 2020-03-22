@@ -1,6 +1,6 @@
 import React from 'react';
 import { View, Text, StyleSheet, Image, TouchableOpacity } from 'react-native';
-import { WebView } from 'react-native-webview';
+//import { WebView } from 'react-native-webview';
 import * as WebBrowser from 'expo-web-browser';
 
 const styles = StyleSheet.create({

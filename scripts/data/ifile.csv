@@ -1,29 +1,7 @@
 id;title;description;image
-1:en;Your extra layer of security;"--Use single-use gloves to pick up items from shelves
---Do not reuse gloves and do not touch your face, the area around your eyes, or your nose with them
---You do not have gloves? Use the small plastic bags for fruits and vegetables instead. Again: Do not touch your skin or face with them.
---See correct usage: https://www.youtube.com/watch?v=xueBYfElFEg";https://firebasestorage.googleapis.com/v0/b/wirvsvirus-65979.appspot.com/o/Hackathon_wear_gloves.png?alt=media&token=46ac2b21-1c22-4d54-a960-02e7ab9b561f
-1:de;Deine extra Schutzschicht;"--Einmalhandschuhe beim Anfassen von Waren verringern das Infektionsrisiko. 
---Verwende die Handschuhe nicht für mehrere Einkäufe. Berühre sie beim Anziehen nicht von außen
---Keine Handschuhe zur Hand? Verwende Plastiktüten aus der Obst und Gemüseabteilung
---Fasse dir auch mit Handschuhen nicht ins Gesicht, damit du keine Viren darauf überträgst
---So benutzt du sie richtig: https://www.youtube.com/watch?v=xueBYfElFEg";https://firebasestorage.googleapis.com/v0/b/wirvsvirus-65979.appspot.com/o/Hackathon_wear_gloves.png?alt=media&token=46ac2b21-1c22-4d54-a960-02e7ab9b561f
-2:en;Night owl or early bird? Be both;"--Infection risk increases in crowded areas
---Try to avoid trips to the supermarket during rush hours
---Are you encountering too many people? Go for a short walk and check again afterwards
---<Link to time slot management app>";https://firebasestorage.googleapis.com/v0/b/wirvsvirus-65979.appspot.com/o/Hackathon_Layout-Time.png?alt=media&token=1ede6536-9f44-4b6f-85b1-2006599fc423
-2:de;Früher Vogel oder Nachteule? Beides gut!;"--Aufenthalte in größere Menschenmengen erhöhen das Infektionsrisiko
---Versuche deinen Einkauf außerhalb von Stoßzeiten zu machen
---Sollte es zu voll sein, nutz die Zeit und geh eine Runde spazieren, um dem Ansturm zu entgehen";https://firebasestorage.googleapis.com/v0/b/wirvsvirus-65979.appspot.com/o/Hackathon_Layout-Time.png?alt=media&token=1ede6536-9f44-4b6f-85b1-2006599fc423
-3:en;Choose wisely!;"--Stand back before choosing goods
---Feel free to pick your favorites from the shelves, but be careful: Once handled, you should not put it back.
---One after another: Please keep distance from others";https://firebasestorage.googleapis.com/v0/b/wirvsvirus-65979.appspot.com/o/Hackathon_pick_products.png?alt=media&token=bb09e758-2799-4019-ab3b-3f22e897d4c7
-3:de;Triff deine Wahl!;"--Gehe nicht zu nah an die Lebensmitteln heran solange du aussuchst
---Such dir dein liebstes Lebensmittel aus bevor du es anfasst. Was du in die Hand nimmst Sollte nicht zurück ins Regal kommen
---Einer nach dem anderen: Achte auf Abstand zu deinen Mitmenschen";https://firebasestorage.googleapis.com/v0/b/wirvsvirus-65979.appspot.com/o/Hackathon_pick_products.png?alt=media&token=bb09e758-2799-4019-ab3b-3f22e897d4c7
-4:de;Bist du an der Kasse?;"--Bezahle bargeldlos wenn immer möglich (EC / Kreditkarte / Handy)
---Schütze die Kassierer*innen und bleib hinter der Scheibe ";
-4:en;Are you at the counter?;"--Pay contactless via card or phone
---Do not approach the cashier too much";
-5:de;Seid lieb zueinander!;;
-5:en;Ist die Stimmung doch mal angespannt?;;
+1:en;my first entry;"this is a text
+-this is a bullet point
+-and this also";/dev/null
+1:de;Der erste Eintrag;Das ist auch ein Text;/dev/null
+2:en;my second entry;;/dev/x
+2:de;Der zweite Eintrag;Das ist ein anderer Text;/dev/x

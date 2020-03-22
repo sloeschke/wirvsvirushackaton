@@ -35,31 +35,6 @@ export default function HomeScreen() {
   let [faqData, setfaqData] = useState([]);
   const { t, i18n } = useTranslation();
 
-  function getData() {
-    return [
-      {
-        key: 1, title: t('title1'),
-        description: t('description1'),
-        image_url: t('imageUrl1')
-      },
-      {
-        key: 2, title: t('title2'),
-        description: t('description2'),
-        image_url: t('imageUrl2')
-      },
-      {
-        key: 3, title: t('title3'),
-        description: t('description3'),
-        image_url: t('imageUrl3')
-      },
-      {
-        key: 4, title: t('title4'),
-        description: t('description4'),
-        image_url: t('imageUrl5')
-      }
-    ]
-  }
-
   const changeLanguage = lng => {
     i18n.changeLanguage(lng);
     const fetchData = async () => {
@@ -137,14 +112,6 @@ HomeScreen.navigationOptions = {
 };
 
 const styles = StyleSheet.create({
-
-  textstyleHeading: {
-    fontSize: 23,
-  },
-
-  textstyleNormal: {
-    fontSize: 19,
-  },
   container: {
     flex: 1,
     backgroundColor: '#fff',
@@ -163,7 +130,6 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     marginTop: 10,
     marginBottom: 20,
-   
   },
   welcomeImage: {
     width: 100,
@@ -175,8 +141,6 @@ const styles = StyleSheet.create({
   getStartedContainer: {
     alignItems: 'center',
     marginHorizontal: 20,
-    textAlign: 'center',
-    fontSize:24,
   },
   homeScreenFilename: {
     marginVertical: 7,
@@ -206,7 +170,7 @@ const styles = StyleSheet.create({
         shadowOffset: { width: 0, height: -3 },
         shadowOpacity: 0.1,
         shadowRadius: 3,
-              },
+      },
       android: {
         elevation: 20,
       },
@@ -272,6 +236,6 @@ const styles = StyleSheet.create({
     alignItems: 'center'
   },
   buttonContainer: {
+    flex: 1,
   }
-  
 });

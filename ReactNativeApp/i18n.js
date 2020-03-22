@@ -62,19 +62,19 @@ i18n
                     "description5": "",
                     "imageUrl5": ""
                 }
-            },
-            fallbackLng: "de",
-            debug: true,
-
-            // have a common namespace used around the full app
-            ns: ["translations"],
-            defaultNS: "translations",
-
-            keySeparator: false, // we use content as keys
-
-            interpolation: {
-                escapeValue: false
             }
+        },
+        fallbackLng: "de",
+        debug: false,
+
+        // have a common namespace used around the full app
+        ns: ["translations"],
+        defaultNS: "translations",
+
+        keySeparator: false, // we use content as keys
+
+        interpolation: {
+            escapeValue: false
         }
     });
 
